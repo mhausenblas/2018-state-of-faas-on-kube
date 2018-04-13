@@ -1,0 +1,85 @@
+The State of FaaS on Kubernetes
+301.sh/2018-state-of-faas-on-kube
+18:00 1 May 2018
+Tags: FaaS, serverless, Kubernetes, containers
+
+Michael Hausenblas
+Developer Advocate, Red Hat
+http://mhausenblas.info
+@mhausenblas
+
+* The evolution
+
+.image img/evolution.png 400 _
+
+* FaaS concept
+
+.image img/faas-concept.png 400 _
+
+* Use cases
+
+Grouping use cases into clusters:
+
+- Ops:
+- Sensors:
+- Conversions:
+
+* General landscape
+
+.image img/glandscape.png 400 _
+
+Source: [[https://landscape.cncf.io/grouping=landscape&landscape=serverless][landscape.cncf.io]] 
+
+
+* Kubernetes landscape
+
+.image img/klandscape.png 400 _
+
+* Challenges & Opportunities
+
+* Does non-public cloud FaaS make sense?
+
+.image img/tns-survey.png 350 _
+
+Most of production deployments currently using proprietary (public cloud) offerings:
+
+- [[https://blog.newrelic.com/2017/11/21/aws-lambda-state-of-serverless/][New Relic survey 11/2017]]
+- [[https://thenewstack.io/aws-lambda-still-towers-competition-much-longer/][TNS blog post 12/2017]]
+
+* Does non-public cloud FaaS make sense?
+
+- Think: public cloud offerings such as AWS Lambda vs. FaaS on Kubernetes
+- But no, it’s not [[https://hackernoon.com/container-people-lets-talk-about-serverless-e6ecb5c437cf][container vs serverless]] ;)
+
+* Developers on call
+
+.image img/devoncall.png 350 _
+
+- [[http://www.oreilly.com/webops-perf/free/serverless-ops.csp][ServerlessOps]], O'Reilly book, 2016 
+- [[https://hackernoon.com/serverless-whos-on-call-now-81193fbfe9d7][Serverless: who's on call now?]], Medium post, 2018 
+
+* Orchestration, anyone?
+
+.image img/faas-orchestration.jpg 350 _
+
+- A handful of functions? No problem
+- Breaking up a monolith into 200 functions? Hmmm …
+- So far, a rather underdeveloped space (e.g. [[https://github.com/ibm-functions/composer][ibm-functions/composer]]) 
+
+* Resources
+
+- CNCF Serverless Working Group https://github.com/cncf/wg-serverless
+- FaaS on Kubernetes inventory https://github.com/cpswan/FaaSonK8s
+- The State of OpenWhisk https://medium.com/@rabbah/the-state-of-openwhisk-ae8c129e8a48
+
+* Summing up
+
+- Is FaaS (on Kubernetes) really the VBA of cloud native computing?
+- It's great tool, but it's *one* tool in the toolbox not a silver bullet
+- Tradeoffs: convenience (lock-in) vs. control (effort)
+
+* Kudos go out to …
+
+- Chris Swan for creating and maintaining the [[https://github.com/cpswan/FaaSonK8s][FaaS on Kubernetes inventory]] 
+- My colleague William Markito Oliveira for slide contributions and OpenWhisk insights
+- The many folks at meetups, various Slack communities such as `#serverless` on CNCF Slack, as well as on Twitter for great discussions and thought-provoking statements on the topic
