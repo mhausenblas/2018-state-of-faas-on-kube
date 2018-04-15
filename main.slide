@@ -20,9 +20,11 @@ http://mhausenblas.info
 
 Grouping use cases into clusters:
 
-- Ops:
-- Sensors:
-- Conversions:
+- Ops: cron job replacements, glue code
+- Sensors: large number, latency not critical
+- Conversions: images, etc.
+
+Sources: [Lambda](https://docs.aws.amazon.com/lambda/latest/dg/use-cases.html), [IBM](https://medium.com/ibm-watson-data-lab/three-great-serverless-use-cases-cd22d44aeb29), [serverless framework](https://serverless.com/learn/use-cases/), [Contino](https://www.contino.io/insights/5-killer-use-cases-for-aws-lambda), [TNS](https://thenewstack.io/serverless-computing-use-cases-image-processing-social-cognition/), [programmableweb.com](https://www.programmableweb.com/news/5-potential-use-cases-serverless-frameworks/elsewhere-web/2017/02/18)
 
 * General landscape
 
