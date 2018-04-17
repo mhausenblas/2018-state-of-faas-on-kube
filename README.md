@@ -2,6 +2,9 @@
 
 This is my KubeCon Europe 2018 [Lightning Talk: The State Of FaaS on Kubernetes](https://kccnceu18.sched.com/event/Dqwe/lightning-talk-the-state-of-faas-on-kubernetes-michael-hausenblas-red-hat-beginner-skill-level). Comments in form of issues as well as concrete suggestions what to add via PRs are welcome.
 
+To view the latest live version, click [here](https://go-talks.appspot.com/github.com/mhausenblas/2018-state-of-faas-on-kube/main.slide#1).
+
+
 To view this presentation locally, you'll need to have Go installed as well the [present](https://godoc.org/golang.org/x/tools/present) tool. Then you can use it as follows to view the deck:
 
 ```bash
