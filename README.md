@@ -1,6 +1,6 @@
 # The State Of FaaS on Kubernetes
 
-This is my KubeCon Europe 2018 [Lightning Talk: The State Of FaaS on Kubernetes](https://kccnceu18.sched.com/event/Dqwe/lightning-talk-the-state-of-faas-on-kubernetes-michael-hausenblas-red-hat-beginner-skill-level). Comments in form of issues as well as concrete suggestions what to add via PRs are welcome.
+This is my KubeCon Europe 2018 [Lightning Talk: The State Of FaaS on Kubernetes](https://kccnceu18.sched.com/event/Dqwe/lightning-talk-the-state-of-faas-on-kubernetes-michael-hausenblas-red-hat-beginner-skill-level). Comments in form of issues as well as concrete suggestions what to add via PRs are welcome until Sunday 2018-04-29.
 
 To view the latest live version, click [here](https://go-talks.appspot.com/github.com/mhausenblas/2018-state-of-faas-on-kube/main.slide#1).
 
